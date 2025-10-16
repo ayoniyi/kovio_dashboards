@@ -7,7 +7,7 @@ import bg from "@/public/newimages/authimg.png";
 import LoginForm from "@/components/auth/LoginForm";
 import Link from "next/link";
 
-export default function Homee() {
+export default function Home() {
   return (
     <div className="flex min-h-screen">
       <div className="hidden lg:block w-1/2 relative">
