@@ -1,0 +1,67 @@
+export const privacyPolicyHeadings = {
+  introduction: "INTRODUCTION",
+  personalDataWeCollect: "ARTICLE 1. PERSONAL DATA WE COLLECT",
+  useOfInformation: "ARTICLE 2. USE OF YOUR INFORMATION",
+  privacyRights: "ARTICLE 3. YOUR PRIVACY RIGHTS",
+  cookies: "ARTICLE 4. COOKIES",
+  dataSecurityAndBreach: "ARTICLE 5. DATA SECURITY AND DATA BREACH",
+  internalPrivacyPolicies: "ARTICLE 6. COMPANY'S INTERNAL PRIVACY POLICIES",
+  minors: "ARTICLE 7. MINORS",
+  amendments: "ARTICLE 8. AMENDMENTS"
+} as const;
+
+export const privacyPolicy = {
+  lastUpdate: [
+    "Most recent updated version March 2025"
+  ],
+
+  introduction: [
+    "Textworld.co ('we', 'us', 'our(s)') has created and published this Privacy and Cookie Policy ('Policy'). The purpose of this Policy is to inform visitors on our website and users of our services about what data and personal information we collect when you visit our website and use our services.",
+    "Textworld.co is a business operating in the United States of America 🇺🇸",
+    "Textworld.co Privacy and Cookie Policy and our internal data protection policies are fully compliant with both the EU General Data Protection Regulation ('GDPR') and the California Consumer Privacy Act ('CCPA'). If you have any questions about the manner in which we collect, process and protect your data and personal information, please contact us at info@textworld.co. We may modify this Privacy and Cookie Policy from time to time, for example in response to changes in the applicable privacy laws and regulations."
+  ],
+
+  personalDataWeCollect: [
+    "We only collect your data after you have given us your express consent. Before you leave any information with us, we give you the option to agree and continue. If you do not want to share your personal information with us, we recommend you to leave our website and do not complete a registration.",
+    "We collect and process the following personal data from visitors and subscribers: The purpose of this will be to register you as a User to our services: Email, password (hashed in bCrypt), and optionally email address. In addition, we may store the IP address from each request which is only used for statistical purposes for our DDoS protection and has realtime per IP, and this will not be linked to your account."
+  ],
+
+  useOfInformation: [
+    "All data we collect and process will be used to provide our Services to you. In addition, we may use this information for maintaining and improving our website, mobile applications and all other services we offer. We may provide you with information about our Services that you explicitly requested from us, answering your questions or responding to other communications you send to us. We do not send/sell/send your information for marketing.",
+    "We may also track and analyze data for investigating and preventing fraudulent behavior, or other unauthorized or illegal transactions and/or activities. For that purpose we may link, connect or combine certain pieces of data. This information can be requested by law enforcement as long as it is within reasonable demand, and our investigations deem the provided report to be matching up with our internal records."
+  ],
+
+  privacyRights: [
+    "Users have the right to withdraw consent where they have previously given their consent to the processing of their personal data.",
+    "Users may object to the processing of their personal information. Users have the right to object to the processing of their data if the processing is carried out on a legal basis other than consent.",
+    "Users have the right to learn if data is being processed by us, obtain disclosure regarding certain aspects of the processing and obtain a copy of the data undergoing processing",
+    "Users have the right to verify the accuracy of their personal data and ask for it to be updated or corrected.",
+    "Users have the right, under certain circumstances, to restrict the processing of their data, in which case, we will not process their Data for any purpose other than storing it.",
+    "Users have the right, under certain circumstances, to obtain the erasure of their Data from us.",
+    "Users have the right to receive their Data in a structured, commonly used and machine-readable format and, if technically feasible, to have it transmitted to another controller without any obstacle.",
+    "Users have the right to bring a claim before their competent data protection authority."
+  ],
+
+  cookies: [
+    "In order to improve your experience on our website, we place cookies on our website. A cookie is a piece of data that is transferred from a web server to your computer or web browser each time you visit this website. Cookies will expire, but these can also be deleted by the user in your browser settings.",
+    "We shall always inform you when we use cookies to collect your personal information and we request your consent before placing such cookies. Also, you can choose to disable cookies in your internet browser settings, we make sure that our cookies do not contain any personal information."
+  ],
+
+  dataSecurityAndBreach: [
+    "Textworld.co is committed to taking all necessary measures and actions to protect your data. Our data protection practices are based on the best industry standards such as hashing your passwords with bCrypt, and only ask for information that is deemed important to us. (for more extended privacy statement). Nevertheless, the transmission of information via the internet can never be 100% secure, and for that reason, we cannot fully guarantee the security of the data you will send to us. When we give you login information and credentials, you shall always remain fully responsible for keeping such information confidential and for personal use. When a data breach occurs, we undertake to act quickly in order to avoid data loss and we will notify without delay each User whose personal data could be at risk, data breaches will be mentioned through our news channels; either through Telegram or on our on-site dashboard",
+    "We waive any liability for privacy policies of third parties, including but not limited to social media links that appear on our website. We do not have any control over the way they collect, process and protect your personal information."
+  ],
+
+  internalPrivacyPolicies: [
+    "Textworld.co is committed to implementing the highest standards of data protection within our organization. This means we maintain clear roles, duties, and responsibilities regarding the way we comply with the GDPR, including instructions and training programs for employees on data protection laws, regulations and policies. Your personal data we collect shall be stored and processed for as long as the legitimate purpose requires it. Users may find specific information regarding the legitimate interests pursued by us within the relevant sections of this document or by contacting us.",
+    "We will take appropriate security measures to prevent unauthorized access, disclosure or modification of your personal data. The processing of your data is carried out using computers and IT-enabled tools, following organizational procedures and modes strictly related to the purposes indicated."
+  ],
+
+  minors: [
+    "We never process personal information from minors. Users declare themselves to be adult according to their applicable legislation. Minors may use our services only with the assistance of a parent or legal guardian."
+  ],
+
+  amendments: [
+    "We reserve the right to make changes to this Privacy Policy at any time by giving notice to the Users on this page. And as far as technically and legally possible by sending a notice to Users via their contact information available to us. We strongly recommend checking this page regularly, referring to the date of the last modification listed at the top of this page. Should the changes affect processing activities performed on the basis of the User's consent, we shall collect new consent from the User, where required."
+  ]
+} as const; 
