@@ -1,13 +1,5 @@
-import React from "react";
+import { redirect } from "next/navigation";
 
-import LoginPage from "./(auth)/login/page";
-
-const Home = () => {
-  return (
-    <div>
-      <LoginPage />
-    </div>
-  );
-};
-
-export default Home;
+export default function Home() {
+  redirect("/login");
+}
