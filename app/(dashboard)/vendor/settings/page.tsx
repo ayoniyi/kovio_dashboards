@@ -1,9 +1,6 @@
-import AdminSettings from '@/components/admin/settings'
-import React from 'react'
+//import AdminSettings from '@/components/admin/settings'
+import React from "react";
 
 export default function page() {
-  return (
- <AdminSettings/>
-
-)
+  return <div>Settings</div>;
 }
