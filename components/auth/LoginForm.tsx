@@ -76,6 +76,7 @@ export default function LoginForm() {
           router.push(`/vendor`);
         } else {
           //onboarding
+          router.push(`/onboarding/vendor`);
         }
       }
     } catch (err: any) {

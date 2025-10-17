@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { use, useContext } from "react";
 import Link from "next/link";
 import { Card } from "@/components/ui/shadcn/card";
 import { TableCell, TableRow } from "@/components/ui/shadcn/table";
@@ -13,6 +13,7 @@ import { formatPrice, capitalizeName } from "@/utilities/formatters";
 import { TableCardSkeleton } from "@/components/ui/custom/DashboardsSkeleton";
 import { useUserRequest } from "@/utilities/requestMethods";
 import { useQuery } from "@tanstack/react-query";
+import { AuthContext } from "@/context/AuthContext";
 
 interface DashboardListingData {
   id: number;
@@ -32,6 +33,9 @@ interface ApiError {
 }
 
 export default function VendorDashboard() {
+  const [authState] = useContext<any>(AuthContext);
+  //console.log("authState", authState);
+
   // const { data, isError, isLoading, error } = useFetch<ApiResponse, ApiError>({
   //   url: "/user-service/dashboard/fetch-listings",
   //   key: ["vendorDashboard"],
@@ -48,7 +52,7 @@ export default function VendorDashboard() {
 
     enabled: !!userRequest,
   });
-  console.log("dt", data);
+  //console.log("dt", data);
 
   if (isLoading) {
     return (
