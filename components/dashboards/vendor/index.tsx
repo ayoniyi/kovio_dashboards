@@ -87,7 +87,7 @@ export default function VendorDashboard() {
   return (
     <div className="min-h-screen space-y-6">
       <div className="min-h-screen text-sm text-center text-gray-500">
-        Currently Under Construction
+        Currently Under Construction.
       </div>
 
       {/* <DashboardMetrics /> */}
